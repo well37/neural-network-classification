@@ -57,9 +57,9 @@ disease-health-indicators-dataset
 - Early stopping runs showed small validation fluctuations, but the effect on final accuracy was minimal.
 - **Dropout models were the most computationally efficient** (≈45–55 seconds vs ~4 minutes), so the best choices in this experiment are the **dropout variants**.
 
+***
 
-
-## Experiment 2: **Multiclass classification on Gene Expression (RNA-Seq)
+## Experiment 2: Multiclass classification on Gene Expression (RNA-Seq)
 
 ### Dataset
 **Gene Expression Cancer RNA-Seq (HiSeq PANCAN)** — five tumor types: **BRCA, KIRC, COAD, LUAD, PRAD**.  
